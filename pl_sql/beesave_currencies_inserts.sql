@@ -11,8 +11,8 @@ values ('usdc', 0.99655696, 'usd coin. fiat-backed stablecoin pegged to usd.', '
 insert into beesave_currencies (name, us_val, description, region_list, icon_link)
 values ('eur', 0.85259194, 'euro. official currency of the eurozone.', 'Germany, France, Spain, Italy, Portugal, Netherlands, Belgium, Austria, Ireland, Greece', 'https://github.com/');
 
-insert into beesave_currencies (name, us_val, description, region_list, icon_link)
-values ('mxn', 18.44998597, 'mexican peso. official currency of mexico.', 'Mexico', 'https://github.com/');
+insert into beesave_currencies (name, us_val, description, region_list, icon_link, default_yn)
+values ('mxn', 18.44998597, 'mexican peso. official currency of mexico.', 'Mexico', 'https://github.com/', 'Y');
 
 insert into beesave_currencies (name, us_val, description, region_list, icon_link)
 values ('cad', 1.38430178, 'canadian dollar. official currency of canada.', 'Canada', 'https://github.com/');
